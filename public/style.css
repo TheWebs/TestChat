@@ -1,0 +1,63 @@
+.bbox {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #555;
+  padding: 5%;
+  padding-bottom: 2% !important;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #DFDCE3;
+}
+
+.message-bar {
+  margin-top: 5%;
+  max-width: 70% !important;
+  display: inline-block !important;
+}
+
+ul {
+  max-height: 200px !important;
+  min-height: 200px !important;
+  overflow-y: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn-send {
+  width: 70% !important;
+}
+
+.scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.style1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.style1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+.style1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #007bff;
+}
